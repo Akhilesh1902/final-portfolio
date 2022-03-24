@@ -3,7 +3,7 @@ export const data = [
     name: "Tasty Treats",
     image: 0,
     description: `This is Simple React Site. This site uses Framer-Moion for the Animations.`,
-    link: "https://https://trickytreats.netlify.app/",
+    link: "https://trickytreats.netlify.app/",
   },
   {
     name: "Three Js Demo",
