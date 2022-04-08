@@ -1,10 +1,19 @@
-import threeJsDemo from "../assets/thumbnails/3jsDemo.png"
-import flyingPan from "../assets/thumbnails/flyingPan.png"
-import pastry from "../assets/thumbnails/pastryShop.png"
-import rumbaChat from "../assets/thumbnails/rumba-chat.png"
-import weather from "../assets/thumbnails/weather-app.png"
-import tastyTreats from "../assets/thumbnails/tastyTreats.png"
+import forestScene from "../assets/thumbnails/forest-scene.jpg";
+import flyingPan from "../assets/thumbnails/flying-pan.jpg";
+import resto from "../assets/thumbnails/resto-site.jpg";
+import rumbaChat from "../assets/thumbnails/rumba-chat.jpg";
+import weather from "../assets/thumbnails/weather-app.jpg";
+import tastyTreats from "../assets/thumbnails/tasty-treats.jpg";
+import cop from "../assets/thumbnails/undercover-cop.jpg";
 
-const Images = [tastyTreats, threeJsDemo, flyingPan, pastry, rumbaChat, weather]
+const Images = [
+  rumbaChat,
+  cop,
+  forestScene,
+  flyingPan,
+  resto,
+  tastyTreats,
+  weather,
+];
 
-export default Images
+export default Images;
