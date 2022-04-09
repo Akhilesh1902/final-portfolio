@@ -1,5 +1,8 @@
 import React from "react";
 import "./contact.css";
+import { FaGithub } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 function Contact() {
   return (
@@ -42,6 +45,18 @@ function Contact() {
             Contact
           </button>
         </form>
+        <div className="otherDetails">
+          <div className="detailsBlock">
+            <FaGithub />
+            <a href="https://github.com/Akhilesh1902">
+              https://github.com/Akhilesh1902
+            </a>
+          </div>
+          <div className="detailsBlock">
+            <IoMdMail />
+            <p>akhil1922002@gmail.com</p>
+          </div>
+        </div>
       </div>
     </div>
   );

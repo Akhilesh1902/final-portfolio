@@ -46,5 +46,6 @@ h1 {
   left: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(135deg, #6b7aa1, #11324d);
+  /* background: linear-gradient(135deg, #6b7aa1, #11324d); */
+  background-color: rgb(13, 13, 13);
 }

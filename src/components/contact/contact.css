@@ -1,6 +1,8 @@
 .contact__container {
   align-self: center;
   margin: 2em 0;
+  display: flex;
+  gap: 2em;
 }
 .contact__form {
   display: flex;
@@ -16,9 +18,6 @@
   gap: 2em;
   margin: 0.5em 0;
   font-size: 1.5rem;
-}
-.form__block input {
-  /* height: 1rem; */
 }
 .form__block textarea {
   resize: none;
@@ -46,6 +45,27 @@
   margin-top: 1em;
   align-self: center;
 }
+.contact-btn:hover {
+  cursor: pointer;
+}
+.otherDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+.otherDetails svg {
+  width: 24px;
+  height: 24px;
+}
+.otherDetails a {
+  /* text-decoration: none; */
+  color: var(--primary-clr);
+}
+.detailsBlock {
+  display: flex;
+  gap: 1em;
+}
 
 @media screen and (max-width: 680px) {
   .form__block {
@@ -55,8 +75,9 @@
   .contact__container {
     margin: 0;
     width: 100%;
-    /* display: flex;
-    justify-content: center; */
+    flex-direction: column;
+    /* display: flex; */
+    /* justify-content: center; */
   }
   .contact__form {
     width: 100%;

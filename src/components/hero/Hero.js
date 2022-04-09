@@ -8,9 +8,11 @@ function Hero() {
     <div className="hero__container">
       <div className="hero__content-wrapper">
         <div className="hero__content">
-          <h1 className="hero__heading">Hi, I'm Akhil</h1>
+          <h1 className="hero__heading">
+            Hi, I'm <span>Akhil</span>
+          </h1>
           <h3 className="hero__subheading">
-            Web Developer | ReactJs | UI/UX Designer
+            Web Developer | ReactJs | ThreeJs
           </h3>
           <p>
             I design and develop amazing sites using ReactJs

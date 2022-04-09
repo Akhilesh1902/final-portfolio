@@ -40,6 +40,9 @@
   justify-self: flex-end;
   height: 20vh;
 }
+h1 > span {
+  color: var(--accent-clr);
+}
 .svg__container > svg:first-child {
   position: absolute;
   animation: svgAnimate 1s linear infinite;

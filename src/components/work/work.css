@@ -33,6 +33,7 @@
   height: 100%;
   object-fit: cover;
   border-radius: 1em 1em 0 0;
+  border: 1px solid rgb(64, 64, 64);
   pointer-events: none;
 }
 .card__details {
@@ -42,7 +43,7 @@
   opacity: 0.9;
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: 0.5%;
   padding: 2em 1em;
   clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
   transition: clip-path 0.5s ease;
@@ -63,6 +64,10 @@
   border-radius: 0.5em;
   margin-top: 1em;
   align-self: flex-end;
+}
+
+.card__btn:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 680px) {
