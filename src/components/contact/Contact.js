@@ -2,7 +2,6 @@ import React from "react";
 import "./contact.css";
 import { FaGithub } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import { Link } from "react-router-dom";
 
 function Contact() {
   return (
