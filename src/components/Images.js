@@ -5,6 +5,8 @@ import rumbaChat from "../assets/thumbnails/rumba-chat.jpg";
 import weather from "../assets/thumbnails/weather-app.jpg";
 import tastyTreats from "../assets/thumbnails/tasty-treats.jpg";
 import cop from "../assets/thumbnails/undercover-cop.jpg";
+import eCom from "../assets/thumbnails/e-commerce.jpg";
+import shader from "../assets/thumbnails/water-shader.jpg";
 
 const Images = [
   rumbaChat,
@@ -14,6 +16,8 @@ const Images = [
   resto,
   tastyTreats,
   weather,
+  eCom,
+  shader,
 ];
 
 export default Images;

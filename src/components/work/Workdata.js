@@ -6,7 +6,13 @@ export const data = [
       "Chat app built using ReactJS and Socket.io. The express server for the site is hosted on heroku app. It creats a room whent the host joins the chat room and allow other user to join the room using room Id.",
     link: "http://rumba-chat.netlify.app/",
   },
-
+  {
+    name: "E-Commerce Site",
+    image: 7,
+    description:
+      "This is a simple e-commerce site built using nextJs and sanity, with full functionality.",
+    link: "https://resto-site.netlify.app",
+  },
   {
     name: "Undercover Cop",
     image: 1,
@@ -20,6 +26,21 @@ export const data = [
       "This is a demo site built in react-three-fiber. It implements day-night cycle in 3Js",
     link: "https://forest-scene.netlify.app",
   },
+
+  {
+    name: "Water shader in 3-js",
+    image: 8,
+    description:
+      "This is a water shader demo site build using react-three-fiber.",
+    link: "https://resto-site.netlify.app",
+  },
+  {
+    name: "Weather App",
+    image: 6,
+    description:
+      "This app is built using ReactJS. The data for the app is fetched from OpenWeather Api.",
+    link: "https://react-weather-app-alpha.netlify.app/",
+  },
   {
     name: "Tasty Treats",
     image: 5,
@@ -32,13 +53,7 @@ export const data = [
     description: "This is a sample site built using ReactJs.",
     link: "https://flying-pan.netlify.app/",
   },
-  {
-    name: "Weather App",
-    image: 6,
-    description:
-      "This app is built using ReactJS. The data for the app is fetched from OpenWeather Api.",
-    link: "https://react-weather-app-alpha.netlify.app/",
-  },
+
   {
     name: "resto-site concept",
     image: 4,
