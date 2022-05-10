@@ -11,7 +11,7 @@ export const data = [
     image: 7,
     description:
       "This is a simple e-commerce site built using nextJs and sanity, with full functionality.",
-    link: "https://resto-site.netlify.app",
+    link: "https://aris-commerce.netlify.app/",
   },
   {
     name: "Undercover Cop",
@@ -32,7 +32,7 @@ export const data = [
     image: 8,
     description:
       "This is a water shader demo site build using react-three-fiber.",
-    link: "https://resto-site.netlify.app",
+    link: "https://water-shader-demo.netlify.app/",
   },
   {
     name: "Weather App",
